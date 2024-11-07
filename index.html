@@ -1,30 +1,308 @@
 <!--
 Requirements
-[  ] Google Font OR Uploaded Font
+   ] Google Font OR Uploaded Font
 [  ] font-size OR font-style 
 [  ] Five CSS Rules
 [  ] Three Images
 
-Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Static Background Image
-[ no ] Feature 2 - Use a unique border-radius
+Select ONE Additional Feyesture to Add  
+[ no ] Feature yes]- Include a StaticyesBackground Image
+[ no ] Feature 2 - Use a unique border-rno ] 
 [ no ] Feature 3 - Use width and margin CSS Properties
-[ no ] Feature 4 - Include at least one more additional HTML page
+[ no ] Feature 4 - Include at least onyesore additional HTML page
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 4 Project</title>
 
-<head>
-  <title>Unit 4 Project</title>
-  <meta charset="utf-8">
-  <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  </style>
-</head>
-<body>
+    <meta charset="utf-8" />
+    <style>
+      @font-face {
+        font-family: blacksword;
+        src: url(https://cdn.glitch.global/c521bf67-54e9-446a-a827-9ac78fd306ca/Blacksword.otf?v=1730297150399);
+      }
 
- 
+      @font-face {
+        font-family: food;
+        src: url(https://cdn.glitch.global/c521bf67-54e9-446a-a827-9ac78fd306ca/Asian%20Food.ttf?v=1730382663096);
+      }
 
-</body>
+      @font-face {
+        font-family: rice;
+        src: url(https://cdn.glitch.global/c521bf67-54e9-446a-a827-9ac78fd306ca/Space%20Rice.otf?v=1730384497848);
+      }
+
+      body {
+        background-color: rgb(250, 227, 217);
+        width: 60%;
+        margin: auto;
+      }
+
+      #title {
+        font-family: blacksword;
+        color: #b5c18e;
+        font-size: 50px;
+      }
+
+      #click {
+        font-family: "Playwrite GB S", cursive;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        color: #9dbc98;
+      }
+
+      #star {
+        font-size: 50px;
+      }
+
+      .paragraph {
+        font-family: "rice";
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        color: #9dbc98;
+        font-size: 20px;
+        border-radius: 30px;
+
+        text-align: center;
+
+        background-color: rgb(252, 250, 238);
+
+        border: 2px solid rgb(165, 182, 141);
+      }
+
+      .pictures {
+        border-radius: 30px;
+        border: 5px solid #e7cccc;
+      }
+      .info {
+        font-family: "rice";
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        color: #9dbc98;
+        font-size: 20px;
+        margin-top: -90px;
+      }
+      .info2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        margin-top: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="title"><center>DaniellaEats</center></h1>
+    <p id="star">
+      <center>✧</center>
+    </p>
+    <h2 id="click">
+      <center>Read down below</center>
+      <center>↓</center>
+    </h2>
+    <br />
+    <br />
+    <br />
+
+    <p class="paragraph">My Favorite Foods</p>
+    <table>
+      <tr>
+        <td>
+          <img
+            class="pictures"
+            src="https://thewoksoflife.com/wp-content/uploads/2017/02/pad-see-ew-11-2.jpg"
+            width="200"
+          />
+        </td>
+        <td>
+          <p class="info">Pad See Ew<br /></p>
+          <p class="info2">
+            Pad see ew is a stir-fried noodle dish that is commonly eaten in
+            Thailand. It can be found easily among street food vendors and is
+            also quite popular in Thai restaurants around the world. The origins
+            of the dish can be traced to China, from where the noodle
+            stir-frying technique was brought.<br />
+            <br />
+            Pad see ew is made with light soy sauce (''si-io khao'', similar to
+            the regular soy sauce), dark soy sauce (si-io dam, having a more
+            syrupy consistency), garlic, broad rice noodles called kuaitiao sen
+            yai in Thai, Chinese broccoli, egg, and tofu or some form of thinly
+            sliced meat – commonly pork, chicken, beef, shrimp, or mixed
+            seafood. It is generally garnished with ground white pepper.
+          </p>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <td>
+          <img
+            class="pictures"
+            src="https://tatyanaseverydayfood.com/wp-content/uploads/2023/05/The-Best-Birria-Tacos-Recipe-2.jpg"
+            width="200"
+          />
+        </td>
+        <td>
+          <p class="info">Birria Tacos<br /></p>
+          <p class="info2">
+            Birria is a meat stew or soup, mainly made with goat or beef. The
+            meat is marinated in an adobo made of vinegar, dried chiles, garlic,
+            and herbs and spices before being cooked in a broth.<br />
+            <br />
+            Birria (Spanish: [ˈbirja]) is a meat stew or soup, mainly made with
+            goat or beef. The meat is marinated in an adobo made of vinegar,
+            dried chiles, garlic, and herbs and spices (including cumin, bay
+            leaves, and thyme) before being cooked in a broth (Spanish:
+            consomé).<br />
+            <br />
+            Try Birria LES! Their birria grilled cheese is amazing.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <td>
+          <img
+            class="pictures"
+            src="https://thefoodietakesflight.com/wp-content/uploads/2021/09/Vegan-Kake-Udon-Noodle-Soup-Recipe-1-of-13.jpg"
+            width="200"
+          />
+        </td>
+        <td>
+          <p class="info">Udon<br /></p>
+          <p class="info2">
+            Udon is a thick noodle made from wheat flour, used in Japanese
+            cuisine. There are a variety of ways it is prepared and served. Its
+            simplest form is in a soup as kake udon with a mild broth called
+            kakejiru made from dashi, soy sauce, and mirin. It is usually topped
+            with thinly chopped scallions.<br />
+            <br />
+            There are many different udon dishes such as yaki, kitsune, and
+            niku.<br />
+            <br />
+            Try Udon Lab in K-town, it's so good.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+
+    <p class="paragraph">Some of my Favorite Restaurants</p>
+
+    <table>
+      <tr>
+        <td>
+          <img
+            class="pictures"
+            src="https://img.freepik.com/free-photo/delicious-pizza-indoors_23-2150873912.jpg?w=360"
+            width="200"
+          />
+        </td>
+        <td>
+          <p class="info">Artichoke Basille's Pizza<br /></p>
+          <p class="info2">
+            They have everything from crab pizza to a plain margherita. The
+            slices are really big and definitly worth the hype. <br />
+            <br />
+            Locations: Chelsea, Greenwich Village, East Village, Times Square,
+            Bushwick, Park Slope and LaG Airport. <br />
+            <br />
+            Rating: 4.7 ★
+            <br />
+            <br />
+            (Not a picture from the restaurant! I couldn't find a good one)
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <td>
+          <img
+            class="pictures"
+            src="https://s3-media0.fl.yelpcdn.com/bphoto/-UfKQ52Jswj-owlhxm3z2Q/348s.jpg"
+            width="200"
+          />
+        </td>
+        <td>
+          <p class="info">Bird Dog Pasta<br /></p>
+          <p class="info2">
+            The pasta here is so so good. They have a 50% off deal for walkins
+            from 4-6pm! Try the carbonara and chicken wings.
+            <br />
+            <br />
+            Location: 525 Hudson St, New York, NY 10014 <br />
+            <br />
+            Rating: 4.8 ★
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <br />
+    <br />
+    <br />
+
+    <table>
+      <tr>
+        <td>
+          <img
+            class="pictures"
+            src="https://s3-media0.fl.yelpcdn.com/bphoto/_SugrKXNL9lhlbmOsW7ngg/348s.jpg"
+            width="200"
+          />
+        </td>
+        <td>
+          <p class="info">Spot Dessert Bar <br /></p>
+          <p class="info2">
+            For sweets, this is my favorite spot. They have a variety of unique
+            desserts like cheesecake decorated like a plant pot and choux-puff
+            pastry with honeycomb. They also have lots of cookie flavors, ice
+            cream flavors, and boba.
+            <br />
+            <br />
+            Locations: East Village, Flushing, Long Island City, and Astoria
+            <br />
+            <br />
+            Rating: 4.8 ★
+          </p>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
